@@ -3,7 +3,7 @@ package de.sijuot.codewars;
 public class Prime {
 
     /**
-     * Is a number prime?
+     * 'Is a number prime?'
      * Prüft, ob die eingegebene Zahl eine Primzahl ist.
      * @param num Die zu prüfende Zahl.
      * @return True, falls es eine Primzahl. False, falls es keine Primzahl ist.
