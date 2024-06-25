@@ -3,8 +3,7 @@ package de.sijuot.codewars;
 public class Main {
 
     public static void main(String[] args) {
-        int num = 'z' - 'a' + 1;
-        System.out.println(num);
+        System.out.println(CaesarCrypto.encode("^:bV(n1z[l{p20,~fm=", -8));
     }
 
 }
