@@ -1,4 +1,4 @@
-package de.schpeiderman.codewars;
+package de.sijuot.codewars;
 
 import de.sijuot.codewars.DigitalCypher;
 
