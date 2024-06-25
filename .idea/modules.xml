@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/7 kyu/7 kyu.iml" filepath="$PROJECT_DIR$/7 kyu/7 kyu.iml" />
       <module fileurl="file://$PROJECT_DIR$/8 kyu/8 kyu.iml" filepath="$PROJECT_DIR$/8 kyu/8 kyu.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/codewars.iml" filepath="$PROJECT_DIR$/.idea/codewars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
     </modules>
   </component>
 </project>

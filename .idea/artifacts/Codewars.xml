@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Codewars">
+    <output-path>$PROJECT_DIR$/out/artifacts/Codewars</output-path>
+    <root id="archive" name="Codewars.jar">
+      <element id="module-output" name="5 kyu" />
+      <element id="module-output" name="6 kyu" />
+      <element id="module-output" name="7 kyu" />
+      <element id="module-output" name="8 kyu" />
+    </root>
+  </artifact>
+</component>
