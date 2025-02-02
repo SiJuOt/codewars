@@ -1,6 +1,6 @@
 package de.sijuot.codewars;
 
-public class Kata {
+public class HighestScoringWord {
 
     /**
      * 'Highest Scoring Word'
