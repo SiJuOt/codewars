@@ -20,5 +20,4 @@ public class FriendOrFoe {
         }
         return friends;
     }
-
 }
