@@ -29,7 +29,7 @@ public class ObservedPin {
         List<List<Character>> possibleVariations = new ArrayList<>();
 
         // Für jede eingegebene Ziffer, die möglichen Variationen hinzufügen.
-        for(char digit : observed.toCharArray()) {
+        for (char digit : observed.toCharArray()) {
             possibleVariations.add(ADJACENT_DIGITS.get(digit));
         }
 
