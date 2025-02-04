@@ -22,7 +22,7 @@ public class ObservedPin {
 
     /**
      * Methode zur generierung aller möglichen PIN-Kombinationen.
-     * @param observed Der beobachtete PIN.
+     * @param observed Die beobachtete PIN.
      * @return Liste mit Strings aller PIN-Kombinationen.
      */
     public static List<String> getPINs(String observed) {
