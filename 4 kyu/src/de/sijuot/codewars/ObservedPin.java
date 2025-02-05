@@ -22,6 +22,7 @@ public class ObservedPin {
 
     /**
      * Methode zur generierung aller möglichen PIN-Kombinationen.
+     *
      * @param observed Die beobachtete PIN.
      * @return Liste mit Strings aller PIN-Kombinationen.
      */
@@ -39,16 +40,15 @@ public class ObservedPin {
     }
 
     private static void generateCombinations(List<List<Character>> lists, int index, StringBuilder current, List<String> results) {
-        if(index == lists.size()) {
+        if (index == lists.size()) {
             results.add(current.toString());
             return;
         }
         // Iteration durch jede mögliche Variation für die aktuelle Ziffer.
-        for(char c : lists.get(index)) {
+        for (char c : lists.get(index)) {
             current.append(c);
             generateCombinations(lists, index + 1, current, results);
             current.deleteCharAt(current.length() - 1);
         }
     }
-
 }
