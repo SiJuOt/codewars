@@ -21,4 +21,24 @@ public class Vowels {
         return count;
     }
 
+    /**
+     * Gibt den eingegebenen Satz ohne Vokale zurück.
+     *
+     * @param str String
+     * @return String ohne Vokale
+     */
+    public static String disemvowel(String str) {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < str.length(); i++) {
+            char x = str.toLowerCase().charAt(i);
+            // Prüft, ob der aktuelle Charakter ein Vokal ist.
+            if (x == 'a' || x == 'e' || x == 'i' || x == 'o' || x == 'u')
+                continue;
+            result.append(str.charAt(i));
+        }
+
+        return result.toString();
+    }
+
 }
