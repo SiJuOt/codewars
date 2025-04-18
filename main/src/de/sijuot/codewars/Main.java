@@ -4,6 +4,7 @@ import de.sijuot.codewars.DigitalCypher;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(TrailingZeros.zeros(7));
+        String result = DrivingLicence.driver(new String[]{"John", "James", "Smith", "01-Jan-2000", "M"});
+        System.out.println(result);
     }
 }
