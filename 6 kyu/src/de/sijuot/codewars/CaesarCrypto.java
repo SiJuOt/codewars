@@ -13,7 +13,7 @@ public class CaesarCrypto {
      */
     public static String encode(String text, int shift) {
         // Prüft, ob der Text verschlüsselt werden kann.
-        if (text == null || text.isEmpty() || text.isBlank())
+        if (text == null || text.isBlank())
             return "";
         StringBuilder result = new StringBuilder();
 
